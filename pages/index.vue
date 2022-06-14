@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <header class="flex justify-between py-14 mb-8 max-w-6xl mx-auto">
+    <header class="flex items-center justify-between py-14 mb-8 px-5 sm:px-10 xl:px-0 xl:max-w-6xl mx-auto">
       <svg width="141" height="31" viewBox="0 0 141 31" fill="none">
         <g clip-path="url(#clip0_11751_31182)">
           <path
@@ -47,27 +47,27 @@
           </clipPath>
         </defs>
       </svg>
-      <button class="bg-[#6c63ff] text-white rounded-[40px] w-[198px] h-[50px] font-semibold hover:bg-[#283bb6] ease-in-out duration-700">
+      <button class="bg-[#6c63ff] text-white rounded-[40px] w-[150px] sm:w-[198px] h-[50px] font-semibold hover:bg-[#283bb6] ease-in-out duration-700">
         Request access
       </button>
     </header>
-    <main class="max-w-6xl mx-auto">
+    <main class="xl:max-w-6xl mx-auto px-5 sm:px-10 xl:px-0">
       <!-- Hero Section -->
       <section class="flex items-center gap-14">
-        <div class="w-1/2">
-          <h1 class="text-[40px] text-[#2F2E41] font-semibold leading-[50px] mb-5">Powerful Point of Sale. <br>Crafted for your restaurant.</h1>
+        <div class="lg:w-1/2">
+          <h1 class="text-[40px] text-[#2F2E41] font-semibold leading-[50px] mb-5">Powerful Point of Sale. Crafted for your restaurant.</h1>
           <p class="text-xl text-[#73878e] mb-7">Fully customized ordering website, sales recording, immediate bank transfer verification, intuitive overall analytics, loyalty program and customer rewards, all in one<!-- --> <span class="text-[#6c63ff] font-semibold">powerful</span> point of sale software.</p>
           <button class="bg-[#6c63ff] text-white rounded-[40px] w-[198px] h-[50px] font-semibold hover:bg-[#283bb6] ease-in-out duration-700">
             Request access
           </button>
         </div>
         <!-- Hero Image -->
-        <img src="~/assets/images/undraw_hiring_re_yk5n.svg" class="w-1/2" alt="">
+        <img src="~/assets/images/undraw_hiring_re_yk5n.svg" class="hidden lg:block w-1/2" alt="">
       </section>
       <!-- Sponsors -->
       <section class="mt-24 mb-28">
         <p class="text-sm">Trusted By:</p>
-        <div class="flex gap-8 mt-5">
+        <div class="flex gap-8 mt-5 flex-wrap">
           <img src="~/assets/images/brand.png" class="w-[115px] h-[30px]" alt="">
           <img src="~/assets/images/brand.png" class="w-[115px] h-[30px]" alt="">
           <img src="~/assets/images/brand.png" class="w-[115px] h-[30px]" alt="">
@@ -76,8 +76,8 @@
         </div>
       </section>
     </main>
-    <footer class="pt-[130px] pb-12 bg-[#fbfbfb]">
-      <div class="flex justify-between max-w-6xl mx-auto items-center">
+    <footer class="pt-12 xl:pt-[130px] pb-12 bg-[#fbfbfb]">
+      <div class="flex flex-col sm:flex-row justify-between xl:max-w-6xl mx-auto items start sm:items-center px-5 sm:px-10 xl:px-0 gap-8">
         <div>
           <svg width="141" height="31" viewBox="0 0 141 31" fill="none">
             <g clip-path="url(#clip0_11751_31182)">
