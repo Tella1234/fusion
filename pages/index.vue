@@ -77,7 +77,7 @@
       </section>
     </main>
     <footer class="pt-[130px] pb-12 bg-[#fbfbfb]">
-      <div class="flex justify-between max-w-6xl mx-auto">
+      <div class="flex justify-between max-w-6xl mx-auto items-center">
         <div>
           <svg width="141" height="31" viewBox="0 0 141 31" fill="none">
             <g clip-path="url(#clip0_11751_31182)">
