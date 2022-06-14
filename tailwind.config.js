@@ -2,7 +2,13 @@
 module.exports = {
   content: [ './pages/.vue'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'nunitos': ['Nunito Sans', 'sans-serif',],
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [         
+    require('tailwindcss'),     
+    require('autoprefixer'),     
+  ]}
