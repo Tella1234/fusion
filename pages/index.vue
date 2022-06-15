@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="font-nunitos">
     <header class="flex items-center justify-between py-14 mb-8 px-5 sm:px-10 xl:px-0 xl:max-w-6xl mx-auto">
       <svg width="141" height="31" viewBox="0 0 141 31" fill="none">
         <g clip-path="url(#clip0_11751_31182)">
@@ -47,9 +47,24 @@
           </clipPath>
         </defs>
       </svg>
-      <button class="bg-[#6c63ff] text-white rounded-[40px] w-[150px] sm:w-[198px] h-[50px] font-semibold hover:bg-[#283bb6] ease-in-out duration-700">
+      <button class="bg-[#6c63ff] text-white rounded-[40px] w-[150px] sm:w-[198px] h-[50px] font-semibold hover:bg-[#283bb6] ease-in-out duration-700" data-bs-toggle="modal" data-bs-target="#exampleModalLg">
         Request access
       </button>
+      <!-- Modal -->
+      <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto" id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-lg relative w-auto pointer-events-none">
+          <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div class="modal-header flex flex-shrink-0 items-center justify-end p-4 rounded-t-md">
+              <button type="button"
+                class="btn-close box-content w-2 h-2 p-1 text-black border-none rounded-none  focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body relative p-4">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="xl:max-w-6xl mx-auto px-5 sm:px-10 xl:px-0">
       <!-- Hero Section -->
